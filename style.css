@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center; 
     height: 100vh;
-    width: 100vw;
+    width: 100vw; background: linear-gradient(#00b4ea,#0d61b4);
 }
 
 .caixa{
