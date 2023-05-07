@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="caixa">
+        <div>
+            <form action="">
+                <img src="/img/logo formulario.png" alt="logo Atelide" class="img1" width="400px">
+                <h1>Formulário Atelide</h1>
+                <h2 class="sub-titulo">Preencha os campos a seguir:</h2>
+                    
+                <div class="campo-box">
+                    <div class="input-box">
+                        <h3>Coloque seu registro</h3>
+                        <div class="inputUser">
+                            <label for="input-name">Nome : </label>
+                            <input type="name" id="input-name" placeholder="Digite seu nome:" required>
+                        </div>
+    
+                        <div class="inputUser">
+                            <label for="input-email">Email:</label>
+                            <input type="email" id="input-email" placeholder="Digite seu email:" required>
+                        </div>
+                        <div class="inputUser">
+                            <label for="input-password">Senha:</label>
+                            <input type="password" id="input-password" placeholder="Digite Sua senha:" required>
+                        </div>
+                    </div>
+                    
+                    <div class="input-box">
+                        <h3>Qual seu sexo?</h3>
+                        <div class="inputRadio">
+                            <div>
+                                <input type="radio" name="sexo" id="input-feminino" value="Feminino" checked>
+                                <label for="input-feminino">Feminino</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="sexo" id="input-masculino" value="Masculino">
+                                <label for="input-masculino">Masculino</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="sexo" id="input-outros" value="Outros">
+                                <label for="input-outros">Outros</label>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="input-box">
+                        <h3>Que ano nasceu?</h3>
+                        <div class="inputData">
+                            <label for="inputdata">Sua data:</label>
+                            <input type="date" value="Data" id="inputdata">
+                        </div>
+                    </div>
+    
+                    <div class="input-box">
+                        <h3>Oque gosta de fazer nas horas vagas?</h3>
+    
+                        <div class="areatexto">
+                            <textarea name="comentario" id="comentario" cols="27" rows="6" placeholder="Digite aqui!"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="submit" class="input-button">
+               
+            </form>
+        </div>
+     
+    </div>
+</body>
+</html>
